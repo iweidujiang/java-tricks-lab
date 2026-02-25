@@ -6,4 +6,4 @@ Java 奇技淫巧研究所。不是所有技巧都叫奇技淫巧，但我保证
 - [03-try-with-resources 的隐藏用法：资源管理界的“自动挡”！](https://mp.weixin.qq.com/s/_jh8LQOksKHeJ7zLVLSFIA)
 - [04-Optional 的正确打开方式：不要只记得 ifPresent 了！](https://mp.weixin.qq.com/s/X9BJB6hSDw_Odpbji7st-w)
 - [05-record + sealed class = Java 的“类型乐高”！](https://mp.weixin.qq.com/s/EWgtX0HEeX3nmsjjC5lP3A)
-- 06-Pattern Matching for instanceof
+- [06-一行 instanceof 干掉“先判后转”！JDK 16+ 模式匹配让类型检查优雅到飞起](https://mp.weixin.qq.com/s/xRbC0bKSKc_3aHhKGSgtZg)
