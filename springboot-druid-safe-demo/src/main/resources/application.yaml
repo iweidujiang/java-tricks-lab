@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: springboot-druid-safe-demo
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_druid?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 111111
+
+    druid:
+      # 连接池
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+      max-wait: 10000
+      validation-query: select 1
+      test-while-idle: true
+      time-between-eviction-runs-millis: 30000
+      # 监控页面安全加固
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        reset-enable: false
+        login-username: druid_monitor
+        login-password: test@#111
+      # web 请求过滤
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: "*.js,*.css,*.png,/druid/*"
+
+      filter:
+        # 开启 StatFilter
+        stat:
+          enabled: true
+          db-type: mysql
+          slow-sql-millis: 2000
+          log-slow-sql: true
+        # 开启 sql 防火墙
+        wall:
+          enabled: true
+          db-type: mysql
+          config:
+            drop-table-allow: false
+            truncate-allow: false
+            delete-allow: true
+            update-allow: true
+            insert-allow: true
+            select-allow: true
+            # 禁止非基本语句（如 SHUTDOWN、LOAD DATA 等）
+            none-base-statement-allow: false
+
+# MyBatis-Plus
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
