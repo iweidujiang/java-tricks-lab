@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.iweidujiang.javatricks.trick1400</groupId>
-    <artifactId>1400-try-with-resources-transaction-deprecated</artifactId>
+    <groupId>io.github.iweidujiang.javatricks</groupId>
+    <artifactId>14-inheritable-threadlocal-context</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -15,11 +15,12 @@
     </properties>
 
     <dependencies>
-        <!-- H2 内存数据库（零配置） -->
+        <!-- Alibaba TransmittableThreadLocal -->
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>2.2.224</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.14.5</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
