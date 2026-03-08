@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.iweidujiang.javatricks.trick14</groupId>
-    <artifactId>14--try-with-resources-transaction</artifactId>
+    <artifactId>1400-try-with-resources-transaction-deprecated</artifactId>
     <version>1.0.0</version>
 
     <properties>
