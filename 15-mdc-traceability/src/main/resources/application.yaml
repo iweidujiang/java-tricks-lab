@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mdc-traceability
+
+server:
+  port: 8080
+
+logging:
+  level:
+    io.github.iweidujiang: DEBUG
+  pattern:
+    # 关键：在日志中输出 MDC 中的 traceId，若不存在则显示 N/A
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level [%X{traceId:-N/A}] %logger{36} - %msg%n"
