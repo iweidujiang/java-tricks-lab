@@ -13,3 +13,4 @@
 - [09-反射太重？试试 MethodHandle！JDK 7 就有的“轻量级反射”，性能超快](https://mp.weixin.qq.com/s/AE00DEBqq94IHXglw6A33Q)
 - [10-虚拟线程（Virtual Threads）初体验：10万并发如喝水（JDK 21）](https://mp.weixin.qq.com/s/-WoO4n_v75SCQgOp5_h0AA)
 - [11-Stream.collect() 的花式玩法：Collector.of() 自定义收集器](https://mp.weixin.qq.com/s/Y4gNJUfx4V8GdtITwFjwuw)
+- [12-结构化并发：用 StructuredTaskScope 编写结构化的并发代码](https://mp.weixin.qq.com/s/6JPXK5D6jeKm4zMCihiLkg)
