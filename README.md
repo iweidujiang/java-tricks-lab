@@ -17,4 +17,4 @@
 - [13-CompletableFuture 的链式异步：告别回调地狱](https://mp.weixin.qq.com/s/iw27zHyOCuBDDlzCIQdLtw)
 - [14-一行代码让异步任务继承主线程的用户信息！InheritableThreadLocal 的正确打开方式](https://mp.weixin.qq.com/s/qkZnN-ItEQ8taE_GBaPuKw)
 - [15-日志打得好，Bug 跑不了！用 MDC 实现全链路追踪](https://mp.weixin.qq.com/s/VhojIYdr6I4TSON_E4l_tA)
-- [16-用 Objects 工具类告别手写 equals 和 hashCode]()
+- [16-用 Objects 工具类告别手写 equals 和 hashCode](https://mp.weixin.qq.com/s/9mQNn6krrTinI78NysXcHA)
