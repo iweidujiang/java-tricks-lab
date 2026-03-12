@@ -15,3 +15,4 @@
 - [11-Stream.collect() 的花式玩法：Collector.of() 自定义收集器](https://mp.weixin.qq.com/s/Y4gNJUfx4V8GdtITwFjwuw)
 - [12-结构化并发：用 StructuredTaskScope 编写结构化的并发代码](https://mp.weixin.qq.com/s/6JPXK5D6jeKm4zMCihiLkg)
 - [13-CompletableFuture 的链式异步：告别回调地狱](https://mp.weixin.qq.com/s/iw27zHyOCuBDDlzCIQdLtw)
+- [14-一行代码让异步任务继承主线程的用户信息！InheritableThreadLocal 的正确打开方式](https://mp.weixin.qq.com/s/qkZnN-ItEQ8taE_GBaPuKw)
