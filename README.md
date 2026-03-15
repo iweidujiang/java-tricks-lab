@@ -19,3 +19,5 @@
 - [15-日志打得好，Bug 跑不了！用 MDC 实现全链路追踪](https://mp.weixin.qq.com/s/VhojIYdr6I4TSON_E4l_tA)
 - [16-用 Objects 工具类告别手写 equals 和 hashCode](https://mp.weixin.qq.com/s/9mQNn6krrTinI78NysXcHA)
 - [17-ConcurrentHashMap.computeIfAbsent()：高并发下安全初始化的终极方案](https://mp.weixin.qq.com/s/DziQFcxHvuJQR77oQLyRwg)
+- [18-枚举的高级用法——用枚举实现策略模式和状态机](https://mp.weixin.qq.com/s/2kjL71ANpKAWsbDeifDoCg)
+- [19-Java 日期时间 API（java.time）最佳实践](https://mp.weixin.qq.com/s/VX5qxr93iAbBVujF874g2Q)
