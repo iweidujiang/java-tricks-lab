@@ -21,3 +21,4 @@
 - [17-ConcurrentHashMap.computeIfAbsent()：高并发下安全初始化的终极方案](https://mp.weixin.qq.com/s/DziQFcxHvuJQR77oQLyRwg)
 - [18-枚举的高级用法——用枚举实现策略模式和状态机](https://mp.weixin.qq.com/s/2kjL71ANpKAWsbDeifDoCg)
 - [19-Java 日期时间 API（java.time）最佳实践](https://mp.weixin.qq.com/s/VX5qxr93iAbBVujF874g2Q)
+- [20-Lambda 表达式中的变量捕获与 effectively final](https://mp.weixin.qq.com/s/R_taqoP97gBtEziAXL8qvg)
